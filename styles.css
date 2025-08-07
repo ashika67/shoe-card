@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #eacfd5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background: #fff;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    max-width: 800px;
+  }
+  
+  .product-image img {
+    width: 350px;
+    object-fit: contain;
+    padding: 20px;
+  }
+  
+  .product-details {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .category {
+    font-size: 12px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .product-details h2 {
+    margin: 0;
+    font-size: 22px;
+    color: #333;
+  }
+  
+  .product-details h3 {
+    color: #b17d84;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .sizes p {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .size-buttons {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .size-buttons button {
+    padding: 8px 12px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .size-buttons button:hover {
+    background-color: #f1d0d5;
+  }
+  
+  .add-to-cart {
+    padding: 12px;
+    background-color: #c6939f;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #b17d84;
+  }
